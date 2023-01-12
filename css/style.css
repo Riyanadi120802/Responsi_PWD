@@ -1,0 +1,117 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f093fb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+}
+    
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+}
+
+.resized-image {
+    width: 5%; /* the image will be 50% of its original width */
+    height: 55%; /* the image will be 50% of its original height */
+}
+
+.nav-item:hover {
+    background-color: rgb(82, 79, 79);
+    color: aqua;
+}
+
+.display-4{
+    font-weight: bold;
+    font-family: poppins;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-dashboard{
+    font-weight: bold;
+    color: rgb(20, 20, 80);
+}
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.2;
+    font-size: 120px;
+}
+
+.margin-left-5 {
+    margin-left: 10px;
+}
+
+.margin-left-10 {
+    margin-left: 50px;
+}
+
+.carousel-item{
+    height: 300px;
+    width: 400px;
+}
+
+.ml-5{
+    margin-left: 50px;
+}
+
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
