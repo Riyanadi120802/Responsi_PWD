@@ -79,7 +79,7 @@ require 'fitur.php';
             <p>Selamat datang, <b><?php echo $_SESSION["username"]; ?></b> <i class="fa-solid fa-face-smile-wink"></i></p>
 
             <div class="row text-white pt-2">
-                <div class="card bg-warning margin-left-5" style="width: 18rem;">
+                <div class="card bg-warning margin-left-5 hover" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="fa-solid fa-graduation-cap fa-flip" style="--fa-animation-duration: 3s;"></i>

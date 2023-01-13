@@ -79,16 +79,16 @@ if (isset($_POST["cari"])) {
 
         </div>
         <div class="col-md-10 p-5">
-            <h1>Daftar Siswa</h1>
+            <h1><i class="fa-solid fa-graduation-cap"></i>Daftar Siswa</h1>
             <div class="row">
                 <div class="col">
-                    <a href="InsertDataSiswa.php" class="btn btn-sm btn-primary">Tambah Data Mahasiswa</a>
-                    <a href="cetakDataMhs.php" class="btn btn-sm btn-primary" target="_blank">Cetak Data</a>
+                    <a href="InsertDataSiswa.php" class="btn btn-sm btn-primary"><i class="fa-sharp fa-solid fa-plus mr-2"></i>Tambah Data Mahasiswa</a>
+                    <a href="cetakDataMhs.php" class="btn btn-sm btn-success" target="_blank"><i class="fa-solid fa-print mr-2"></i>Cetak Data</a>
                 </div>
                 <div class="col">
                     <form action="" method="post" class="layout-right">
                         <input type="text" name="keyword" size="30" autofocus placeholder="masukkan keyword pencarian.." autocomplete="off">
-                        <button type="submit" class="btn btn-sm btn-success" name="cari">Cari</button>
+                        <button type="submit" class="btn btn-sm btn-warning" name="cari"><i class="fa-solid fa-magnifying-glass"></i>Cari</button>
                     </form>
                 </div>
             </div>
@@ -122,8 +122,8 @@ if (isset($_POST["cari"])) {
                                         echo "Perempuan";
                                     } ?></td>
                                 <td>
-                                    <a href="UbahMhs.php?id_Siswa=<?= $row['id_Siswa']; ?>" class="btn btn-sm btn-warning">Ubah</a>
-                                    <a href="HapusSiswa.php?id_Siswa=<?= $row['id_Siswa']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('anda yakin ingin hapus?');">Hapus</a>
+                                    <a href="UbahMhs.php?id_Siswa=<?= $row['id_Siswa']; ?>" class="btn btn-sm btn-warning"><i class="fa-solid fa-pen-to-square mr-2"></i>Ubah</a>
+                                    <a href="HapusSiswa.php?id_Siswa=<?= $row['id_Siswa']; ?>" class="btn btn-sm btn-danger" onclick="return confirm('anda yakin ingin hapus?');"><i class="fa-solid fa-trash mr-2"></i>Hapus</a>
                                 </td>
                             </tr>
                             <?php $i++; ?>
